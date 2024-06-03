@@ -87,8 +87,63 @@
 }
 .left-info .penetrate-blur {
     position: absolute;
-    width:  100%;
+    width:  50%;
     height: 100%;
     background: rgba(255, 255, 255, .1);
     backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.penetrate-blur h1 {
+    font-size: 250px;
+    color: #fff;
+}
+
+.left-info .content {
+    position: absolute;
+    bottom: 8%;
+    left: 10%;
+    color: #fff;
+}
+.content h3 {
+    font-size: 25px;
+}
+.content p {
+    font-size: 20px;
+    margin: 10px 0 15px;
+}
+.content .btn {
+    display: inline-block;
+    padding: 13px 28px;
+    background: #fff;
+    border: solid 2px #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 20px;
+    color: #444;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+}
+.content .btn:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.slide .right-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column;
+    justify-content: center; */
+}
+.right-info h1 {
+    font-size: 250px;
+    /* color: #fff; */
 }
