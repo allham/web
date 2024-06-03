@@ -147,3 +147,34 @@
     font-size: 250px;
     /* color: #fff; */
 }
+/* .right-info h3 {
+    position: absolute;
+    font-size: 80px;
+    color: #fff;
+    text-shadow:0 0 10px rgba(0, 0, 0, .5);
+    transform: translateY(150%);
+    margin-left: 13px;
+} */
+.navigation {
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    z-index: 99;
+}
+.navigation span {
+    display: inline-flex;
+    justify-content:center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    margin-left: 25px    
+}
+.navigation span {
+    font-size: 45px;
+    color: #444;
+}
