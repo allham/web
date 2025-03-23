@@ -151,8 +151,8 @@
     transition: .5s;
 }
 .content .btn:hover {
-    background: transparent;
-    color: #fff;
+    background: rgba(125,125,125,0.5);
+    color: #000;
 }
 
 .slide .right-info {
